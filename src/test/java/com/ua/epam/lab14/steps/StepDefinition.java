@@ -27,7 +27,7 @@ public class StepDefinition {
         }
     @When("press element with value {string}")
     public void press_element_with_value(String string) {
-        System.out.println(string);
+        System.out.println(string+12);
     }
 
     @When("type to input with name {string} text: {string}")
